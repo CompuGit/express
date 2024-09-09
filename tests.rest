@@ -1,0 +1,36 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/123
+
+###
+
+POST http://localhost:3000/users/
+
+{
+    "first_name" : "poorna"
+}
+
+
+###
+
+PUT http://localhost:3000/users/123
+
+{
+    "first_name" : "poorna",
+    "last_name" : "sai",
+    "email" : "example@email.com"
+}
+
+###
+
+PATCH http://localhost:3000/users/123
+
+{
+    "email" : "ad.compugit@gmail.com"
+}
+
+###
+
+DELETE http://localhost:3000/users/123

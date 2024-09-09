@@ -1,0 +1,19 @@
+npm init
+npm init -y
+
+npm i express
+npm i --save-dev nodemon
+
+npm i
+
+ "scripts": {
+    "dev": "nodemon server.js"
+  }
+
+npm run dev
+
+experss basic script
+express method (get)
+response types
+routes
+REST Methods and CRUD operations
