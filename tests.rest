@@ -33,4 +33,4 @@ PATCH http://localhost:3000/users/123
 
 ###
 
-DELETE http://localhost:3000/users/123
+DELETE http://localhost:3000/users/4
